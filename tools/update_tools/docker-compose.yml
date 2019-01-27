@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  builder:
+    build: .
+    volumes:
+      - ./../../:/opt/rules_python_source/

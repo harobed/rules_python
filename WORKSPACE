@@ -120,12 +120,12 @@ http_file(
 )
 
 http_file(
-    name = "wheel_0_31_1_whl",
-    sha256 = "80044e51ec5bbf6c894ba0bc48d26a8c20a9ba629f4ca19ea26ecfcf87685f5f",
+    name = "wheel_0_32_3_whl",
+    sha256 = "11584b78a56b4eedba4eedc55c9dac8aa2dd7070",
     # From https://pypi.org/project/wheel/
-    url = ("https://files.pythonhosted.org/packages/81/30/" +
-           "e935244ca6165187ae8be876b6316ae201b71485538ffac1d718843025a9/" +
-           "wheel-0.31.1-py2.py3-none-any.whl"),
+    urls = [("https://files.pythonhosted.org/packages/ff/47/" +
+            "1dfa4795e24fd6f93d5d58602dd716c3f101cfd5a77cd9acbe519b44a0a9/" +
+            "wheel-0.32.3-py2.py3-none-any.whl")],
 )
 
 http_file(
